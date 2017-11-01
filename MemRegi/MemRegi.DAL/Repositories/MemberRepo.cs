@@ -29,10 +29,8 @@ namespace MemRegi.DAL.Repositories
                     LastName = p.LastName,
                     Phone = p.Phone,
                     Email = p.Email,
-                    MyProperty = p.MyProperty,
                     DateOfBirth = p.DateOfBirth,
                     Address = p.Address,
-                    Title = p.Title
                 }).ToList();
             }
         }
