@@ -18,22 +18,6 @@ namespace MemRegi.DAL.Repositories
                 return db.Member.ToList();
             }
         }
-        public static List<MemberVM> GetAllMemberVM()
-        {
-            using (MemRegiEntities db = new MemRegiEntities())
-            {
-                return db.Member.Select(p => new MemberVM
-                {
-                    Id = p.Id,
-                    FirstName = p.FirstName,
-                    LastName = p.LastName,
-                    Phone = p.Phone,
-                    Email = p.Email,
-                    DateOfBirth = p.DateOfBirth,
-                    Address = p.Address,
-                }).ToList();
-            }
-        }
         public static void Add(Member member)
         {
             using (MemRegiEntities db = new MemRegiEntities())

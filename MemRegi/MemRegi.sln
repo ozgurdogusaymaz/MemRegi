@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemRegi.DAL", "MemRegi.DAL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemRegi.TestConsole", "MemRegi.TestConsole\MemRegi.TestConsole.csproj", "{032F1EE2-00C8-4A32-900F-0D01A1589C65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemRegi.Web", "MemRegi.Web\MemRegi.Web.csproj", "{6962A4C2-16D4-4D9A-81F8-5CF21B4B9262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{032F1EE2-00C8-4A32-900F-0D01A1589C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{032F1EE2-00C8-4A32-900F-0D01A1589C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{032F1EE2-00C8-4A32-900F-0D01A1589C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6962A4C2-16D4-4D9A-81F8-5CF21B4B9262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6962A4C2-16D4-4D9A-81F8-5CF21B4B9262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6962A4C2-16D4-4D9A-81F8-5CF21B4B9262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6962A4C2-16D4-4D9A-81F8-5CF21B4B9262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
